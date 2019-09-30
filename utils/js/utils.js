@@ -3,7 +3,7 @@ const Utils = {
     _typeof(obj) {
       return Object.prototype.toString.call(obj).slice(8, -1).toLowerCase();
     },
-    isString(o) { //判断是否字符串
+    isString(o) { //是否字符串
       return Utils._typeof(o) === 'string'
     },
     isNumber(o) { //是否数字
