@@ -2,6 +2,7 @@ const Utils = {
   //123
   //456
   //789
+  //1230
     _typeof(obj) {
       return Object.prototype.toString.call(obj).slice(8, -1).toLowerCase();
     },
