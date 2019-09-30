@@ -27,8 +27,8 @@ const Utils = {
       return Utils._typeof(o) === 'date'
     },
     /*是否是纯粹的对象*/
-    isPlainObject(obj) {
-      return Utils._typeof(obj) === 'object';
+    isPlainObject(o) {
+      return Utils._typeof(o) === 'object';
     },
     isString(obj) {
       return typeof (obj) === 'string';
